@@ -1,2 +1,2 @@
 # PCB_CAD
-Examples/Libraries of PCB made by Altium, etc
+Examples/Libraries of PCB made for Altium and KidCAD
