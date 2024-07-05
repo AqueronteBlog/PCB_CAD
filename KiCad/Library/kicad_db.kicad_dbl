@@ -1,0 +1,548 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "KiCad database",
+    "description": "A database of components",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DSN=kicad_db;"
+    },
+    "libraries": [
+        {
+            "name": "MCU_Espressif",
+            "table": "MCU_Espressif",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Resistors - SMD 0402_1005",
+            "table": "Resistors - SMD 0402_1005",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Resistors - SMD 0603_1608",
+            "table": "Resistors - SMD 0603_1608",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Sensors - Accelerometer",
+            "table": "Sensors - Accelerometer",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Interface - Serial Transceiver",
+            "table": "Interface - Serial Transceiver",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "LED - RGB",
+            "table": "LED - RGB",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Capacitors - SMD 0201_0603",
+            "table": "Capacitors - SMD 0201_0603",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Capacitors - SMD 0603_1608",
+            "table": "Capacitors - SMD 0603_1608",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        },
+        {
+            "name": "Interface - USB",
+            "table": "Interface - USB",
+            "key": "Manufacturer Part Number",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Verified",
+                    "name": "Vierified",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1",
+                    "name": "Supplier 1",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 1 Part Number",
+                    "name": "Supplier 1 Part Number",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2",
+                    "name": "Supplier 2",
+                    "inherit_properties": true
+                },
+                {
+                    "column": "Supplier 2 Part Number",
+                    "name": "Supplier 2 Part Number",
+                    "inherit_properties": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+(footprint "RESC160X80X55L30N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Nominal Density Level. Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body")
+	(tags "R res Resistor resistor 0603 1608")
+	(property "Reference" "REF**"
+		(at 0 -1.275 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c4fd378-52f6-4fb4-bb8c-4c7aaf85eb2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RESC160X80X55L30N"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a8796c9-99ff-479a-8ad6-c91374514cd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0826ba9a-3e18-4e39-9311-48d7b1b2faa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f2d9ab2-a9eb-42b5-b694-6843401391c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Nominal Density Level. Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7e22949-f6a2-487c-8ad7-9913c3663ea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.37 -0.67)
+		(end -1.37 0.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca0cbbd8-aece-4b0d-9b8c-ca892b62d16b")
+	)
+	(fp_line
+		(start -1.37 -0.67)
+		(end 1.37 -0.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eea9bf0-b87d-4859-b0ed-650be2201bf2")
+	)
+	(fp_line
+		(start -1.37 0.67)
+		(end 1.37 0.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "355c7826-005a-46e5-a85d-c94ad8351ee1")
+	)
+	(fp_line
+		(start 1.37 -0.67)
+		(end 1.37 0.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "22b474a8-c6cc-4e36-9462-274756f093e5")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a98bb1c3-0e73-43e3-b275-338ed66ff1df")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2c59689b-4650-4239-8d6c-8148876dbb7a")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aee4562d-7c6b-4486-bf5c-94db4c214c60")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end -0.5 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c1edcd95-7df9-4da4-94bd-007e4a351239")
+	)
+	(fp_line
+		(start 0.5 -0.4)
+		(end 0.5 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3e9dca44-52e4-4ac3-9b7a-2c77104046d4")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c91ebd63-5c6c-4268-bc73-427938d06f8b")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "bdd19533-f79c-4199-80f8-57c978aa5b60")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "727b5f0e-bbbd-48e0-bd9c-f44e1ced0ca7")
+	)
+	(fp_line
+		(start -0.35 0)
+		(end 0.35 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "b0322dcf-023a-478d-8dce-a8b18b23d7d2")
+	)
+	(fp_line
+		(start 0 0.35)
+		(end 0 -0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "4b7edc3a-7057-4643-8cf4-574e49085c80")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "bb148700-545d-430c-9e4a-bcc003d6dd44")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "9d228ce0-435a-4a4e-a751-f618ffe269be")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "ee7add53-9db2-4276-b1a0-b9f593776fdd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.3")
+		(uuid "15da2e2a-ba59-4052-a7e0-dc8880d20c3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.785 0)
+		(size 0.76 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e707edad-327e-4cd9-ad12-a6cdd3a84786")
+	)
+	(pad "2" smd roundrect
+		(at 0.785 0)
+		(size 0.76 0.93)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "00d2105b-c3fa-41ee-8a29-9aca6c1b4723")
+	)
+	(model "D:/Workspaces/PCB_CAD/KiCad/Library/3dmodels/Passive/Resistors/RES_0603_1608_RESC160X80X55L30.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
